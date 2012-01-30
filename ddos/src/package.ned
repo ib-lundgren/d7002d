@@ -1,0 +1,3 @@
+package ddos;
+
+@license(LGPL);

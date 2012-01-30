@@ -1,0 +1,185 @@
+version 2
+run General-0-20120130-13:04:01-24745
+attr configname General
+attr datetime 20120130-13:04:01
+attr experiment General
+attr inifile ddos.ini
+attr iterationvars ""
+attr iterationvars2 $repetition=0
+attr measurement ""
+attr network Ddos
+attr processid 24745
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+
+scalar Ddos.r1.eth[0].queue 	"packets received by queue" 	2892
+scalar Ddos.r1.eth[0].queue 	"packets dropped by queue" 	0
+scalar Ddos.r1.eth[0].mac 	"simulated time" 	1000029.2133753
+scalar Ddos.r1.eth[0].mac 	"txrate (Mb)" 	10
+scalar Ddos.r1.eth[0].mac 	"full duplex" 	1
+scalar Ddos.r1.eth[0].mac 	"frames sent" 	2892
+scalar Ddos.r1.eth[0].mac 	"frames rcvd" 	386
+scalar Ddos.r1.eth[0].mac 	"bytes sent" 	290496
+scalar Ddos.r1.eth[0].mac 	"bytes rcvd" 	130592
+scalar Ddos.r1.eth[0].mac 	"frames from higher layer" 	2892
+scalar Ddos.r1.eth[0].mac 	"frames from higher layer dropped (iface down)" 	0
+scalar Ddos.r1.eth[0].mac 	"frames dropped (bit error)" 	0
+scalar Ddos.r1.eth[0].mac 	"frames dropped (not for us)" 	0
+scalar Ddos.r1.eth[0].mac 	"frames passed up to HL" 	386
+scalar Ddos.r1.eth[0].mac 	"PAUSE frames sent" 	0
+scalar Ddos.r1.eth[0].mac 	"PAUSE frames rcvd" 	0
+scalar Ddos.r1.eth[0].mac 	"frames/sec sent" 	0.0028919155173868
+scalar Ddos.r1.eth[0].mac 	"frames/sec rcvd" 	0.00038598872396656
+scalar Ddos.r1.eth[0].mac 	"bits/sec sent" 	2.323900111034
+scalar Ddos.r1.eth[0].mac 	"bits/sec rcvd" 	1.0447054806268
+scalar Ddos.r1.eth[0].mac 	"rx channel idle (%)" 	99.999989305912
+scalar Ddos.r1.eth[0].mac 	"rx channel utilization (%)" 	1.0694087589606e-05
+scalar Ddos.r1.eth[0].mac 	"rx channel collision (%)" 	0
+scalar Ddos.r1.eth[0].mac 	collisions 	0
+scalar Ddos.r1.eth[0].mac 	backoffs 	0
+scalar Ddos.r1.eth[0].encap 	"packets from higher layer" 	2892
+scalar Ddos.r1.eth[0].encap 	"frames from MAC" 	386
+scalar Ddos.r1.eth[1].queue 	"packets received by queue" 	2899
+scalar Ddos.r1.eth[1].queue 	"packets dropped by queue" 	0
+scalar Ddos.r1.eth[1].mac 	"simulated time" 	1000029.2133753
+scalar Ddos.r1.eth[1].mac 	"txrate (Mb)" 	10
+scalar Ddos.r1.eth[1].mac 	"full duplex" 	1
+scalar Ddos.r1.eth[1].mac 	"frames sent" 	2899
+scalar Ddos.r1.eth[1].mac 	"frames rcvd" 	2883
+scalar Ddos.r1.eth[1].mac 	"bytes sent" 	291424
+scalar Ddos.r1.eth[1].mac 	"bytes rcvd" 	289920
+scalar Ddos.r1.eth[1].mac 	"frames from higher layer" 	2899
+scalar Ddos.r1.eth[1].mac 	"frames from higher layer dropped (iface down)" 	0
+scalar Ddos.r1.eth[1].mac 	"frames dropped (bit error)" 	0
+scalar Ddos.r1.eth[1].mac 	"frames dropped (not for us)" 	0
+scalar Ddos.r1.eth[1].mac 	"frames passed up to HL" 	2883
+scalar Ddos.r1.eth[1].mac 	"PAUSE frames sent" 	0
+scalar Ddos.r1.eth[1].mac 	"PAUSE frames rcvd" 	0
+scalar Ddos.r1.eth[1].mac 	"frames/sec sent" 	0.0028989153128991
+scalar Ddos.r1.eth[1].mac 	"frames/sec rcvd" 	0.0028829157802995
+scalar Ddos.r1.eth[1].mac 	"bits/sec sent" 	2.3313238941602
+scalar Ddos.r1.eth[1].mac 	"bits/sec rcvd" 	2.3192922456453
+scalar Ddos.r1.eth[1].mac 	"rx channel idle (%)" 	99.999974962011
+scalar Ddos.r1.eth[1].mac 	"rx channel utilization (%)" 	2.5037988555845e-05
+scalar Ddos.r1.eth[1].mac 	"rx channel collision (%)" 	0
+scalar Ddos.r1.eth[1].mac 	collisions 	0
+scalar Ddos.r1.eth[1].mac 	backoffs 	0
+scalar Ddos.r1.eth[1].encap 	"packets from higher layer" 	2899
+scalar Ddos.r1.eth[1].encap 	"frames from MAC" 	2883
+scalar Ddos.r2.eth[0].queue 	"packets received by queue" 	2883
+scalar Ddos.r2.eth[0].queue 	"packets dropped by queue" 	0
+scalar Ddos.r2.eth[0].mac 	"simulated time" 	1000029.2133753
+scalar Ddos.r2.eth[0].mac 	"txrate (Mb)" 	10
+scalar Ddos.r2.eth[0].mac 	"full duplex" 	1
+scalar Ddos.r2.eth[0].mac 	"frames sent" 	2883
+scalar Ddos.r2.eth[0].mac 	"frames rcvd" 	2899
+scalar Ddos.r2.eth[0].mac 	"bytes sent" 	289920
+scalar Ddos.r2.eth[0].mac 	"bytes rcvd" 	291424
+scalar Ddos.r2.eth[0].mac 	"frames from higher layer" 	2883
+scalar Ddos.r2.eth[0].mac 	"frames from higher layer dropped (iface down)" 	0
+scalar Ddos.r2.eth[0].mac 	"frames dropped (bit error)" 	0
+scalar Ddos.r2.eth[0].mac 	"frames dropped (not for us)" 	0
+scalar Ddos.r2.eth[0].mac 	"frames passed up to HL" 	2899
+scalar Ddos.r2.eth[0].mac 	"PAUSE frames sent" 	0
+scalar Ddos.r2.eth[0].mac 	"PAUSE frames rcvd" 	0
+scalar Ddos.r2.eth[0].mac 	"frames/sec sent" 	0.0028829157802995
+scalar Ddos.r2.eth[0].mac 	"frames/sec rcvd" 	0.0028989153128991
+scalar Ddos.r2.eth[0].mac 	"bits/sec sent" 	2.3192922456453
+scalar Ddos.r2.eth[0].mac 	"bits/sec rcvd" 	2.3313238941602
+scalar Ddos.r2.eth[0].mac 	"rx channel idle (%)" 	99.999974831455
+scalar Ddos.r2.eth[0].mac 	"rx channel utilization (%)" 	2.5168544741858e-05
+scalar Ddos.r2.eth[0].mac 	"rx channel collision (%)" 	0
+scalar Ddos.r2.eth[0].mac 	collisions 	0
+scalar Ddos.r2.eth[0].mac 	backoffs 	0
+scalar Ddos.r2.eth[0].encap 	"packets from higher layer" 	2883
+scalar Ddos.r2.eth[0].encap 	"frames from MAC" 	2899
+scalar Ddos.r2.eth[1].queue 	"packets received by queue" 	2894
+scalar Ddos.r2.eth[1].queue 	"packets dropped by queue" 	0
+scalar Ddos.r2.eth[1].mac 	"simulated time" 	1000029.2133753
+scalar Ddos.r2.eth[1].mac 	"txrate (Mb)" 	10
+scalar Ddos.r2.eth[1].mac 	"full duplex" 	1
+scalar Ddos.r2.eth[1].mac 	"frames sent" 	2894
+scalar Ddos.r2.eth[1].mac 	"frames rcvd" 	390
+scalar Ddos.r2.eth[1].mac 	"bytes sent" 	291104
+scalar Ddos.r2.eth[1].mac 	"bytes rcvd" 	130368
+scalar Ddos.r2.eth[1].mac 	"frames from higher layer" 	2894
+scalar Ddos.r2.eth[1].mac 	"frames from higher layer dropped (iface down)" 	0
+scalar Ddos.r2.eth[1].mac 	"frames dropped (bit error)" 	0
+scalar Ddos.r2.eth[1].mac 	"frames dropped (not for us)" 	0
+scalar Ddos.r2.eth[1].mac 	"frames passed up to HL" 	390
+scalar Ddos.r2.eth[1].mac 	"PAUSE frames sent" 	0
+scalar Ddos.r2.eth[1].mac 	"PAUSE frames rcvd" 	0
+scalar Ddos.r2.eth[1].mac 	"frames/sec sent" 	0.0028939154589617
+scalar Ddos.r2.eth[1].mac 	"frames/sec rcvd" 	0.00038998860711647
+scalar Ddos.r2.eth[1].mac 	"bits/sec sent" 	2.3287639689443
+scalar Ddos.r2.eth[1].mac 	"bits/sec rcvd" 	1.0429135329756
+scalar Ddos.r2.eth[1].mac 	"rx channel idle (%)" 	99.999989321272
+scalar Ddos.r2.eth[1].mac 	"rx channel utilization (%)" 	1.0678728038311e-05
+scalar Ddos.r2.eth[1].mac 	"rx channel collision (%)" 	0
+scalar Ddos.r2.eth[1].mac 	collisions 	0
+scalar Ddos.r2.eth[1].mac 	backoffs 	0
+scalar Ddos.r2.eth[1].encap 	"packets from higher layer" 	2894
+scalar Ddos.r2.eth[1].encap 	"frames from MAC" 	390
+scalar Ddos.server.tcpApp[0] 	bytesRcvd 	100000
+scalar Ddos.server.tcpApp[0] 	bytesSent 	100000
+scalar Ddos.server.pingApp 	"Pings sent" 	0
+scalar Ddos.server.eth[0].queue 	"packets received by queue" 	392
+scalar Ddos.server.eth[0].queue 	"packets dropped by queue" 	2
+scalar Ddos.server.eth[0].mac 	"simulated time" 	1000029.2133753
+scalar Ddos.server.eth[0].mac 	"txrate (Mb)" 	10
+scalar Ddos.server.eth[0].mac 	"full duplex" 	1
+scalar Ddos.server.eth[0].mac 	"frames sent" 	390
+scalar Ddos.server.eth[0].mac 	"frames rcvd" 	2894
+scalar Ddos.server.eth[0].mac 	"bytes sent" 	130368
+scalar Ddos.server.eth[0].mac 	"bytes rcvd" 	291104
+scalar Ddos.server.eth[0].mac 	"frames from higher layer" 	390
+scalar Ddos.server.eth[0].mac 	"frames from higher layer dropped (iface down)" 	0
+scalar Ddos.server.eth[0].mac 	"frames dropped (bit error)" 	0
+scalar Ddos.server.eth[0].mac 	"frames dropped (not for us)" 	0
+scalar Ddos.server.eth[0].mac 	"frames passed up to HL" 	2894
+scalar Ddos.server.eth[0].mac 	"PAUSE frames sent" 	0
+scalar Ddos.server.eth[0].mac 	"PAUSE frames rcvd" 	0
+scalar Ddos.server.eth[0].mac 	"frames/sec sent" 	0.00038998860711647
+scalar Ddos.server.eth[0].mac 	"frames/sec rcvd" 	0.0028939154589617
+scalar Ddos.server.eth[0].mac 	"bits/sec sent" 	1.0429135329756
+scalar Ddos.server.eth[0].mac 	"bits/sec rcvd" 	2.3287639689443
+scalar Ddos.server.eth[0].mac 	"rx channel idle (%)" 	99.999974860254
+scalar Ddos.server.eth[0].mac 	"rx channel utilization (%)" 	2.5139745583178e-05
+scalar Ddos.server.eth[0].mac 	"rx channel collision (%)" 	0
+scalar Ddos.server.eth[0].mac 	collisions 	0
+scalar Ddos.server.eth[0].mac 	backoffs 	0
+scalar Ddos.server.eth[0].encap 	"packets from higher layer" 	390
+scalar Ddos.server.eth[0].encap 	"frames from MAC" 	2894
+scalar Ddos.clients[0].tcpApp[0] 	bytesRcvd 	100000
+scalar Ddos.clients[0].tcpApp[0] 	bytesSent 	100000
+scalar Ddos.clients[0].pingApp 	"Pings sent" 	0
+scalar Ddos.clients[0].eth[0].queue 	"packets received by queue" 	390
+scalar Ddos.clients[0].eth[0].queue 	"packets dropped by queue" 	4
+scalar Ddos.clients[0].eth[0].mac 	"simulated time" 	1000029.2133753
+scalar Ddos.clients[0].eth[0].mac 	"txrate (Mb)" 	10
+scalar Ddos.clients[0].eth[0].mac 	"full duplex" 	1
+scalar Ddos.clients[0].eth[0].mac 	"frames sent" 	386
+scalar Ddos.clients[0].eth[0].mac 	"frames rcvd" 	2892
+scalar Ddos.clients[0].eth[0].mac 	"bytes sent" 	130592
+scalar Ddos.clients[0].eth[0].mac 	"bytes rcvd" 	290496
+scalar Ddos.clients[0].eth[0].mac 	"frames from higher layer" 	386
+scalar Ddos.clients[0].eth[0].mac 	"frames from higher layer dropped (iface down)" 	0
+scalar Ddos.clients[0].eth[0].mac 	"frames dropped (bit error)" 	0
+scalar Ddos.clients[0].eth[0].mac 	"frames dropped (not for us)" 	0
+scalar Ddos.clients[0].eth[0].mac 	"frames passed up to HL" 	2892
+scalar Ddos.clients[0].eth[0].mac 	"PAUSE frames sent" 	0
+scalar Ddos.clients[0].eth[0].mac 	"PAUSE frames rcvd" 	0
+scalar Ddos.clients[0].eth[0].mac 	"frames/sec sent" 	0.00038598872396656
+scalar Ddos.clients[0].eth[0].mac 	"frames/sec rcvd" 	0.0028919155173868
+scalar Ddos.clients[0].eth[0].mac 	"bits/sec sent" 	1.0447054806268
+scalar Ddos.clients[0].eth[0].mac 	"bits/sec rcvd" 	2.323900111034
+scalar Ddos.clients[0].eth[0].mac 	"rx channel idle (%)" 	99.999974910173
+scalar Ddos.clients[0].eth[0].mac 	"rx channel utilization (%)" 	2.5089827041468e-05
+scalar Ddos.clients[0].eth[0].mac 	"rx channel collision (%)" 	0
+scalar Ddos.clients[0].eth[0].mac 	collisions 	0
+scalar Ddos.clients[0].eth[0].mac 	backoffs 	0
+scalar Ddos.clients[0].eth[0].encap 	"packets from higher layer" 	386
+scalar Ddos.clients[0].eth[0].encap 	"frames from MAC" 	2892
