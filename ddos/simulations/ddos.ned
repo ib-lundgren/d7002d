@@ -27,20 +27,20 @@ network Ddos
 {
     parameters:
         int numClients;
-        
+
+        @display("bgb=618,370");
     types:
-       	channel ethernetline extends DatarateChannel
+        channel ethernetline extends DatarateChannel
         {
             delay = 0.1us;
         }
-        
+
     submodules:
         configurator: FlatNetworkConfigurator6;
         r1: Router6;
         r2: Router6;
         server: StandardHost6;
         clients[numClients]: StandardHost6;
-        
     connections:
         for i=0..numClients-1 {
             clients[i].ethg++ <--> ethernetline <--> r1.ethg++;
